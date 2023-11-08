@@ -1,4 +1,4 @@
-<img width="869" alt="image" src="https://github.com/ankur766/BhagwatGeeta/assets/106395652/8f7bab66-e76d-45f8-9184-ed3b21626da3"># BhagwatGeeta
+# BhagwatGeeta WEB PAGES
 #HOME PAGE
 <img width="944" alt="image" src="https://github.com/ankur766/BhagwatGeeta/assets/106395652/942fa085-8138-414f-a080-880cd92cea6b">
 
