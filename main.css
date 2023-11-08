@@ -1,0 +1,52 @@
+    body {
+        background-image: url("C:/Users/KIIT/OneDrive/Desktop/vscode program/ankur/BhagwatGeeta/image/bhagavad-gita-mahabharata-digital-artwork-14jgzpazgen8pts0.jpg");
+        /* Specify the path to your image using forward slashes (/) */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        position: relative;
+    }
+    
+    body::before {
+        content: "";
+        background-image: inherit;
+        /* Inherit the background image from the body */
+        filter: blur(3px);
+        /* Adjust the blur amount as needed */
+        position: absolute;
+        /* Position the pseudo-element absolutely */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        /* Place the pseudo-element behind the content */
+    }
+    
+    #content {
+        text-align: center;
+        /* Center the content */
+        font-weight: bold;
+        /* Make the content bold */
+        color: white/* Set the text color to your desired color */
+    }
+    
+    #head {
+        color: red;
+    }
+    
+    #fetchButton,
+    #speakEnglishButton,
+    #speakHindiButton {
+        background-color: aqua;
+        margin-top: 2px;
+    }
+    
+    .chapter1-verse1 {
+        background-image: url("chapter1-verse1-background.jpg");
+    }
+    
+    .chapter2-verse1 {
+        background-image: url("chapter2-verse1-background.jpg");
+    }
+    /* Add more CSS classes for other chapters and verses as needed */

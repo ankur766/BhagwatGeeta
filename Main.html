@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bhagavad Gita Sloka</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="content">
+        <h1 id="head">Bhagavad Gita Sloka</h1>
+        <div>
+            <label for="chapterSelect">Chapter:</label>
+            <select id="chapterSelect">
+            <option value="1">Chapter 1</option>
+            <option value="2">Chapter 2</option>
+            <!-- Add more chapter options as needed -->
+        </select>
+            <label for="verseSelect">Verse:</label>
+            <select id="verseSelect">
+            <!-- This will be populated dynamically based on the selected chapter -->
+        </select>
+        </div>
+        <div>
+            <p></p>
+            <span id="chapter"></span>
+        </div>
+        <div>
+            <p></p>
+            <span id="verse"></span>
+        </div>
+        <div>
+            <p>Sloka:</p>
+            <span id="sloka"></span>
+        </div>
+        <div>
+            <p>Hindi Translation:</p>
+            <span id="hindiTranslation"></span>
+        </div>
+        <div>
+            <p>English Translation:</p>
+            <span id="englishTranslation"></span>
+        </div>
+        <button id="fetchButton">Fetch Sloka</button>
+        <button id="speakHindiButton">Speak Hindi</button>
+        <button id="speakEnglishButton">Speak English</button>
+    </div>
+
+    <script src="geeta.js"></script>
+</body>
+
+</html>

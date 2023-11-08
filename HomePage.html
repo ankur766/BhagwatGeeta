@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhagavad Gita</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="HomepageCSS.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" id="heading" href="#"> Bhagavad Gita </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Image</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Main.html">Geeta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Welcome to Bhagavad Gita</h1>
+                <p>The Bhagavad Gita, a sacred scripture of the Hindu religion, is a profound and timeless dialogue that takes place on the battlefield of Kurukshetra. This scripture contains a profound conversation between Prince Arjuna and Lord Krishna,
+                    who serves as his charioteer and divine guide. As Arjuna grapples with moral and emotional dilemmas about his role in a great war, Lord Krishna imparts profound spiritual wisdom, encompassing a wide range of life's fundamental principles.
+                    The Bhagavad Gita delves into topics such as duty, righteousness, devotion, and the path to spiritual realization, offering profound insights and guidance on how to lead a life filled with purpose and inner peace. This scripture is
+                    not only revered by Hindus but also holds universal appeal, serving as a source of inspiration and guidance for people seeking spiritual and ethical enlightenment around the world.</p>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div class="slider">
+                <img id="img-1" src="C:\Users\KIIT\OneDrive\Desktop\vscode program\ankur\BhagwatGeeta\image\bhagavad-gita-chapter-18-verse-78-0exbvq9vi8k31bj5.jpg" alt="Image 1" />
+                <img id="img-2" src="C:\Users\KIIT\OneDrive\Desktop\vscode program\ankur\BhagwatGeeta\image\bhagavad-gita-mahabharata-digital-artwork-14jgzpazgen8pts0.jpg" alt="Image 2" />
+                <img id="img-3" src="C:\Users\KIIT\OneDrive\Desktop\vscode program\ankur\BhagwatGeeta\image\bhagavad-gita-mahabharata-digital-artwork-14jgzpazgen8pts0.jpg" alt="Image 3" />
+            </div>
+            <div class="navigation-button">
+                <span class="dot active" onclick="changeSlide(0)"></span>
+                <span class="dot" onclick="changeSlide(1)"></span>
+                <span class="dot" onclick="changeSlide(2)"></span>
+            </div>
+
+            <hr>
+            <div id="About" class="About">
+                <h2>ABOUT</h2>
+                <button id="translate-button" onclick="translateToHindi()">Translate to Hindi</button>
+                <p id="about-content">
+                    The Bhagavad Gita, often referred to as the Gita, is a 700-verse Hindu scripture that is part of the Indian epic Mahabharata. It consists of a conversation between Prince Arjuna and the god Krishna, who serves as his charioteer. The dialogue takes place
+                    on the battlefield just before the Kurukshetra War, where Arjuna is filled with doubt and moral dilemma about fighting in the war. The Bhagavad Gita addresses profound philosophical and ethical issues and provides guidance on life,
+                    duty, and spirituality.
+                </p>
+
+            </div>
+        </div>
+        <script src="home.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
+
+</html>

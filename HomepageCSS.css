@@ -1,0 +1,98 @@
+        /* Default styles for all screen sizes */
+        
+        body {
+            background-color: orange;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100vh;
+        }
+        
+        .navbar {
+            background-color: rgb(232, 138, 6);
+        }
+        
+        .navbar-brand {
+            color: red !important;
+            font-family: mon;
+            font-size: 30px;
+            font-weight: bolder;
+            font-size: 40px;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bold;
+            color: #333;
+            text-shadow: 2px 2px 0px #555, 4px 4px 0px #666, 6px 6px 0px #777;
+            transform: rotateX(20deg);
+        }
+        
+        .container {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: orange;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+        
+        .line {}
+        /* Responsive styles for screens smaller than 768px (adjust as needed) */
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                /* Add some padding to the container for better spacing on smaller screens */
+            }
+        }
+        /* Responsive styles for screens larger than 1200px (adjust as needed) */
+        
+        @media (min-width: 1200px) {
+            .container {
+                font-size: 24px;
+                /* Increase font size on larger screens for better readability */
+            }
+        }
+        
+        .slider {
+            width: 100%;
+            height: 510px;
+            position: relative;
+        }
+        
+        .slider img {
+            width: 100%;
+            height: 500px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        
+        .slider img:first-child {
+            z-index: 1;
+        }
+        
+        .slider img:nth-child(2) {
+            z-index: 0;
+        }
+        
+        .navigation-button {
+            text-align: center;
+            position: relative;
+        }
+        
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        
+        .active,
+        .dot:hover {
+            background-color: #717171;
+        }
